@@ -5,10 +5,6 @@ const nextConfig = {
 
   compress: true,
 
-  transpilePackages: [
-    '@shared/components'
-  ],
-
   experimental: {
     logging: "verbose",
     optimizePackageImports: [
